@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    background-color: #8c8989;
+}
+.title{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: grey;
+    margin: 0px;
+    text-align: center;
+}
+.secondTitle
+{
+    text-align: center;
+    background-color: #c2bebe;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;  
+    margin-bottom: 0px;
+    border: black solid;
+
+}
+.icons{
+    float: right;
+}
+.cartIcon{
+    height: 20px;
+    margin-right: 10px;
+}
+ul{
+    text-align: center;
+    border: 5px solid;
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    font-size: 19px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif; 
+}
+li a{
+    margin-left: auto;
+    margin-top: auto;
+    float: left;
+    display: block;
+    color: #34ad77;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 30px; 
+}
+li a:hover{
+    background-color: gray;
+}
+.generalText{
+    font-size: 20px;
+}
+#color{
+    text-decoration: none;
+    color: black;
+    
+}
+.mainContainer{
+    height: 1100px;
+ 
+}
+.container
+{
+    
+    background-color: #c2bebe;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly; 
+   
+}
+.ProductBox11{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #8c8989;
+    box-sizing: border-box;
+    height: 490px;
+    width: 400px;
+    border: black solid;  
+    margin-top: 30px;
+} 
+.secondContainer{
+    background-color: #c2bebe;
+    height: 850px;
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+.ProductBox22{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 50px;
+    background: #8c8989;
+    box-sizing: border-box;
+    height: 490px;
+    width: 400px;
+    border: black solid;
+}
+.newProductImgText{
+    font-size: 20px;
+  
+}
+.newProductImgText2{
+    font-size: 15px;
+}
+.container2{
+    height: 360px;
+    width: 1920;
+    border: black solid;
+    border-width: 3px;
+    display: flex;
+}
+.leftAboutUs{
+    background-color: black;
+    height: 360px;
+    width: 350px; 
+}
+.rightAboutUs{
+    background-color: #c2bebe;
+    height: 360px;
+    width: 1570px;
+}
+.logo{
+    margin: 30px;
+} 
+.marginAboutUsText{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.font{
+    color: white;
+} 
+.btn{
+    background-color: #8c8989;
+    color: red;
+   
+}
+.container555 {
+    max-width: 960px;
+}
+.gradiant-custom{
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
